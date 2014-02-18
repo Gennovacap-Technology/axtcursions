@@ -1,0 +1,47 @@
+/* general */
+
+@import url('//fonts.googleapis.com/css?family=Exo+2:400,700|Oswald:400,700,300');
+
+body, p {
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3, .navbar, .btn, .carousel-caption {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* header */
+
+.hero-unit h1 {
+    font-size: 40px;
+    padding: 20px 0px 10px 30px;
+    color: transparent;
+    height: 100px;
+    width: 100%;
+    background: url(//s3.amazonaws.com/thehostelshuttle/logo.png) no-repeat scroll 20px 20px / 200px auto rgb(34, 34, 34);
+    width: 100%;
+    background-size: 200px;
+    height: 110px;
+}
+a:link, a:visited, .ui-datepicker td a.ui-state-default {
+    color: rgb(60, 104, 180);
+    color: transparent;
+}
+
+.hero-unit {
+  border-radius: 0px;
+}
+
+/* all things blue */
+
+.product-overview h1 {
+    color: rgb(50, 118, 177);
+}
+
+.btn, .btn-primary {
+    background-color: rgb(50, 118, 177);
+}
+
+.side-column h3, .ui-datepicker td a.ui-state-active, .ui-datepicker td a.ui-state-default:hover, .ui-datepicker td.ui-datepicker-today a.ui-state-active {
+    background-color: rgb(50, 118, 177);
+}

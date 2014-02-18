@@ -11,6 +11,7 @@ h1, h2, h3, .navbar, .btn, .carousel-caption {
   min-height: 500px;
   min-width: 889px;
   width: 100%;
+  text-align: center;
 }
 
 .day img {
