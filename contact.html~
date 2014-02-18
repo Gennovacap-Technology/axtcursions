@@ -1,0 +1,47 @@
+---
+layout: default
+title: Contact
+---
+
+    
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/austin-skyline.jpg" alt="First slide">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+    
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <h2>Where do you pick up?</h2>
+      We pick you up and drop you off directly at your hostel.
+    What should I bring?
+      Check out the page for each trip to get details about items you should bring with you. We recommend bringing comfy shoes and a camera on every trip.
+    How do I pay?
+      When we arrive to pick you up, you can pay by cash or credit card.
+    Do I have to pay in advance?
+      No! We currently do not accept advanced payment
+    Should I book in advance?
+      Absolutely! We do not show up to hostels unless there is a booking.
+    How much do I need to tip?
+      Nothing! There is no tipping allowed in The Hostel Shuttle.
+    Do you need my phone number?
+      No, but if there is a trip cancellation we will only be able to notify you of the cancellation via email.
+    Can you take wheelchairs?
+      At this time we are not wheelchair accessible.
+    What if I only want to go one-way?
+      Please let your driver know and if you booked online, note it in the "Special Requirements" section of the booking form. We don't offer discounts for one-direction modifications to trips at this time.
+    How can I book?
+      Online or by phone
+    What is your cancellation policy?
+    
+      </div>
+    </div>
+    
+    </div> <!-- /container -->
