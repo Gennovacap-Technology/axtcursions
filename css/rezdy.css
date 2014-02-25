@@ -2,8 +2,9 @@
 
 @import url('//fonts.googleapis.com/css?family=Exo+2:400,700|Oswald:400,700,300');
 
-body, p {
+body, p, label, input, button, select, textarea {
   font-family: 'Exo 2', sans-serif;
+  font-size: 14px;
 }
 
 h1, h2, h3, .navbar, .btn, .carousel-caption {
@@ -23,9 +24,13 @@ h1, h2, h3, .navbar, .btn, .carousel-caption {
     background-size: 200px;
     height: 110px;
 }
-a:link, a:visited, .ui-datepicker td a.ui-state-default {
-    color: rgb(60, 104, 180);
+
+h1 a:link {
     color: transparent;
+}
+
+a:link, a:visited {
+    color: rgb(60, 104, 180);
 }
 
 .hero-unit {
@@ -42,6 +47,10 @@ a:link, a:visited, .ui-datepicker td a.ui-state-default {
     background-color: rgb(50, 118, 177);
 }
 
-.side-column h3, .ui-datepicker td a.ui-state-active, .ui-datepicker td a.ui-state-default:hover, .ui-datepicker td.ui-datepicker-today a.ui-state-active {
+.side-column h3 {
     background-color: rgb(50, 118, 177);
+}
+
+.products-price .price:after {
+    content: url(//s3.amazonaws.com/thehostelshuttle/no-tipping.png);
 }
