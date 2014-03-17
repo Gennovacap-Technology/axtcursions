@@ -7,7 +7,7 @@
     <meta name="description" content="{{page.description}}">
     <link rel="shortcut icon" href="/favicon.ico">
 
-    <title>{% if page.title %} {{page.title}} - {% endif %} The Hostel Shuttle{% unless page.title %} - Austin transportation for hostel dwellers{% endunless %}</title>
+    <title>{% if page.title %} {{page.title}} - {% endif %} The Hostel Shuttle{% unless page.title %} - Door-to-door hostel transportation! Austin, Houston, and San Antonio Texas.{% endunless %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -50,7 +50,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="/">Destinations</a></li>
                 <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/faq.html">FAQ</a></li>
               </ul>
             </div>
           </div>
@@ -72,7 +72,8 @@
               <ul class="list-unstyled">
                 <li><a href="/">Destinations</a></li>
                 <li><a href="/contact.html">Contact</a></li>
-                <li><a href="/about.html">About</a></li>
+                <li><a href="/faq.html">FAQ</a></li>
+                <li><a href="/attribution.html">Photo Attribution</a></li>
               </ul>
               </nav>
             </div>
@@ -89,7 +90,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/holder.js"></script>
+    <script src="js/jquery.unveil.min.js"></script>
     <script src="js/jquery.simple-text-rotator.min.js"></script>
     <script>
     $(document).ready(function() {
@@ -98,6 +99,8 @@
         separator: ",",
         speed: 10000 
        });
+       
+       $("img").unveil(500);
     });
     </script>
 
