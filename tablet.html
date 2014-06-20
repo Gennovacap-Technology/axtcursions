@@ -47,19 +47,33 @@ body {
   font-size: 3em;
 }
 </style>
+
+<script>
+  $(function () {
+    var fotorama = $('.fotorama')
+      .fotorama({allowfullscreen: true})
+      .data('fotorama');
+
+    fotorama.requestFullScreen();
+  });
+</script>
+
+
 <div class="fotorama"
      data-allowfullscreen="native"
       data-autoplay="true"
       data-loop="true"
+      data-stopautoplayontouch="false"
+      data-width="100%"
+      data-height="100%"
       >
-  <img src="/images/river-float-small.jpg" data-caption="<h3>River Tubing in San Marcos!</h3><p>Float down the river in an inflatable tube. 3-5 hour float. BYOB!</p>">
+  <img src="/images/river-float-small.jpg" data-caption="<h3>River Tubing in San Marcos!</h3><p>Float down the river in an inflatable tube. 3-5 hour float. BYOB! <a href='http://thehostelshuttle.com/'>Book here!</a></p>">
   <img src="/images/salt-lick.jpg"          data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">
   <img src="/images/lostcreek/lost-creek-1.jpg" data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">>
   <img src="/images/lostcreek/lost-creek-2.jpg" data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">>
   <img src="/images/lostcreek/lost-creek-3.jpg" data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">>
   <img src="/images/lostcreek/lost-creek-4.jpg" data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">>
   <img src="/images/lostcreek/lost-creek-5.jpg" data-caption="<h3>Swimming and BBQ!</h3><p>Come with us for a swim out to a petite waterfall on the Austin Greenbelt. Afterward, we'll get award-winning BBQ at The Salt Lick! <abbr title="Bring your own beer">BYOB!</abbr></p>">>
-  <img src="/images/airport-medium.jpg" data-caption="<h3>$17 Airport Shuttle</h3><p>Drop-offs to Austin Bergstrom International Airport every day!">
 
 </div>
 
