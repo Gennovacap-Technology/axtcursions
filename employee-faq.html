@@ -1,0 +1,71 @@
+---
+layout: default
+title: FAQ
+---
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/austin-skyline.jpg" alt="First slide">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+    <ul>
+
+</ul>
+
+    <div class="container about">
+    <div class="row">
+      <div class="col-sm-8 qanda">
+        <h1>Questions and Answers</h1>
+        <ul class="list-unstyled">
+        <li><h2>Where do you pick up?</h2>
+        <p><b>ATXcursions picks up at these hostels:</b></p>
+        <ul>
+          <li><b>Hostelling International Austin</b> - <a href="https://www.google.com/maps/place/HI+-+Austin/@30.245086,-97.723267,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b4485cf759bb:0xfac032eb8766218e">2200 S Lakeshore Blvd, Austin, TX 78741</a></li>
+          <li><b>Firehouse Hostel</b> - <a href="https://www.google.com/maps/place/Firehouse+Hostel+and+Lounge/@30.268173,-97.741098,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5a7654371ed:0x19d841d72ca81e38">605 Brazos St, Austin, TX 78701</a></li>
+          <li><b>Drifter Jack's</b> - <a href="https://www.google.com/maps/place/Drifter+Jack's+Hostel/@30.291071,-97.741914,17z/data=!3m1!4b1!4m2!3m1!1s0x8644b5827e81c5e5:0x31e544afb62041e6">2602 Guadalupe St, Austin, TX 78705</a></li>
+        </ul>
+        <p>You don't need to be a hostel guest to come with us!</p>
+
+        <iframe src="https://mapsengine.google.com/map/embed?mid=zGtJgmBxOK6w.ktK6BHzzfPBI" width="640" height="480"></iframe>
+      </li>
+
+        {% for set in site.data.qanda %}
+          <li><h2>{{ set.q }}</h2>
+              {{ set.a }}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h1>For employees</h1>
+      <ul class="list-unstyled">
+
+        {% for set in site.data.employeefaq %}
+          <li><h2>{{ set.q }}</h2>
+              {{ set.a }}
+          </li>
+        {% endfor %}
+
+      </ul>
+
+      <b>Other notes:</b>
+      <ul>
+        {% for set in site.data.employeequickref %}
+          <li>
+              {{ set.ref }}
+          </li>
+        {% endfor %}
+
+
+      </ul>
+
+      </div>
+    </div>
+
+    </div> <!-- /container -->
