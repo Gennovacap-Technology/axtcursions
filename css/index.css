@@ -24,6 +24,7 @@ body {
   -moz-border-radius: 10px;
   border-radius: 10px;
   margin: 10px;
+  padding: 0;
 }
 
 h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
@@ -88,6 +89,17 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   width: 200px;
 }
 
+/*@media(max-width:767px)*/
+
+@media(max-width:992px){
+  .navbar-nav li a:link {
+    font-size: 80%;
+  }
+
+  .navbar-nav li {
+    margin: 0 10px;
+  }
+}
 
 @media(max-width:767px){
 
@@ -239,6 +251,16 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   .col-xs-12 {
     margin-bottom: 20px;
   }
+}
+
+.iframe-responsive {
+  min-width: 100%;
+}
+
+.footer {
+  padding-top: 50px;
+  background: #222;
+  color: white;
 }
 
 
