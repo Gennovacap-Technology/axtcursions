@@ -11,13 +11,133 @@ body {
   margin: -0px 0 50px 0;
 }
 
-h1, h2, h3, .navbar, .btn, .carousel-caption, .price {
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.invert .jumbotron-caption {
+  color: white;
+}
+
+.jumbotron img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   font-family: 'Oswald', sans-serif;
+}
+
+
+/***** Navigation ******/
+.navbar {
+  margin-bottom: 0px;
 }
 
 .navbar-nav {
   float: right;
+  margin-top: 5px;
 }
+
+.navbar-nav li {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.navbar-nav li a:link {
+  line-height: .8em;
+  vertical-align: middle;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.navbar-nav li a::first-line {
+  font-size: .6em;
+}
+
+
+.nav {
+  list-style: none;
+}
+
+
+.navbar-nav > li > a {
+  padding: 60px 0px 47px 50px;
+}
+
+.navbar-nav > li {
+  font-size: 2em;
+}
+
+.navbar-inverse {
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+
+.navbar-wrapper {
+  margin-top: 0;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+
+@media(max-width:767px){
+
+  .container > .navbar-header, .container > .navbar-collapse {
+    margin: 0;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin: auto;
+    display: inline;
+    float: none;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+  }
+
+  .navbar-nav > li {
+  }
+
+  .navbar-nav > li > a {
+    padding: 0 0 20px 0;
+  }
+
+  .navbar-nav li a:link {
+    font-size: 80%;
+  }
+
+  .navbar-nav .hidden-nav {
+    display: none;
+  }
+
+}
+
 
 .available {
   font-style: italic;
@@ -90,55 +210,40 @@ h1, h2, h3, .navbar, .btn, .carousel-caption, .price {
 
 .day img {
   /* img-responsive */
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
 }
 
 
-.navbar-nav > li > a {
-  padding: 60px 0px 47px 50px;
-}
-
-.navbar-nav > li {
-  font-size: 2em;
-}
-
-.navbar-inverse {
-  border-bottom: 1px solid #333;
-  width: 100%;
-}
-
-.navbar-wrapper {
-  margin-top: 0;
-}
 
 .carousel-inner {
   border-bottom: 10px solid #333;
 }
 
-.carousel-caption {
+.invert .jumbotron-caption {
+  font-size: 26px;
   text-shadow: 2px 2px 0px rgba(0,0,0,1),
          0px 8px 13px rgba(0,0,0,1),
          0px 18px 23px rgba(0,0,0,1);
+}
+
+.jumbotron-caption .btn {
+  text-shadow: none;
 }
 
 @media(max-width:767px){
   h2 {
     font-size: 2em;
   }
-  
-  .navbar-nav > li {
-    font-size: 1em;
-  }
-  
-  .navbar-nav > li > a {
-    padding: 10px 0px 10px 50px;
-  }
-  
+
   .col-xs-12 {
     margin-bottom: 20px;
   }
 }
+
+
+
+
 @media(min-width:768px){
   h2 {
     font-size: 2em;
@@ -233,7 +338,7 @@ h2 {
   z-index: 2;
   display: block;
   opacity: 1;
-  
+
   -webkit-transform: rotateY(180deg) translate3d(0,0,0);
   -moz-transform: rotateY(180deg) translate3d(0,0,0);
   -ms-transform: rotateY(180deg) translate3d(0,0,0);
@@ -278,4 +383,3 @@ h2 {
 .btn-primary + .btn-primary {
   margin-top: 5px;
 }
-  
