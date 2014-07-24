@@ -54,7 +54,7 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   text-transform: uppercase;
 }
 
-.navbar-nav li a::first-line {
+.navbar-nav li .top-line {
   font-size: .6em;
 }
 
@@ -65,7 +65,7 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
 
 
 .navbar-nav > li > a {
-  padding: 60px 0px 47px 50px;
+  padding: 60px 0px 47px 30px;
 }
 
 .navbar-nav > li {
@@ -83,6 +83,7 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
 
 .navbar-brand {
   margin-left: 10px;
+  padding: 15px 0;
 }
 
 .navbar-brand img {
@@ -128,6 +129,8 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
     display: inline;
     float: none;
     text-align: center;
+
+    padding: 0 5px;
   }
 
   .navbar-brand img {
