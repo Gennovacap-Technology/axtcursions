@@ -239,6 +239,10 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
          0px 18px 23px rgba(0,0,0,1);
 }
 
+.invert .extra-shadow {
+  font-weight: 400;
+}
+
 .jumbotron-caption .btn {
   text-shadow: none;
 }
