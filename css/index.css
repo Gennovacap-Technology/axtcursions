@@ -421,6 +421,6 @@ h2 {
 
 
 /* give buttons space when they stack */
-.btn-primary + .btn-primary {
+.btn-primary {
   margin-top: 5px;
 }
