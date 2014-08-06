@@ -424,3 +424,11 @@ h2 {
 .btn-primary {
   margin-top: 5px;
 }
+
+.facebook-nav {
+  padding: 40px 0px 47px 30px;
+}
+
+.navbar-nav > li.facebook-nav a {
+  padding: 7px 0 0 0;
+}
