@@ -426,7 +426,13 @@ h2 {
 }
 
 .facebook-nav {
+  padding: 35px 0px 47px 30px;
+}
+
+@media(min-width:992px){
+.facebook-nav {
   padding: 40px 0px 47px 30px;
+}
 }
 
 .navbar-nav > li.facebook-nav a {
