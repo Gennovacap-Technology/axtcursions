@@ -426,13 +426,18 @@ h2 {
 }
 
 .facebook-nav {
-  padding: 35px 0px 47px 30px;
+  padding: 0px 0px 20px 0px;
 }
 
 @media(min-width:992px){
-.facebook-nav {
-  padding: 40px 0px 47px 30px;
+  .facebook-nav {
+    padding: 40px 0px 47px 30px;
+  }
 }
+@media(min-width:768px){
+  .facebook-nav {
+    padding: 35px 0px 47px 30px;
+  }
 }
 
 .navbar-nav > li.facebook-nav a {
