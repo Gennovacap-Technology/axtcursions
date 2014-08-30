@@ -435,7 +435,51 @@ h2 {
   }
 }
 
-.im-centered { margin: auto; max-width: 300px;}
+.icons {
+  list-style-type: none;
+}
+
+.icons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icons {
+    margin: 0px -5px;
+    padding: 1.5em 0px;
+}
+
+.icons li {
+    float: left;
+    display: inline-block;
+}
+
+.icons li a {
+    display: inline-block;
+    height: 64px;
+    width: 64px;
+    background-size: 64px 64px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    text-indent: -9999em;
+}
+
+.si-tripadvisor {
+  background-color: #589442;
+  background-image: url(/images/icons/tripadvisor/tripadvisor-64.png);
+}
+
+.si-yelp {
+    background-color: #C93C27;
+    background-image: url(/images/icons/yelp/yelp-64.png);
+}
+
+.si-facebook {
+    background-color: #3B5998;
+    background-image: url(/images/icons/facebook/facebook-64.png);
+}
 
 .navbar-nav > li.facebook-nav a {
   padding: 7px 0 0 0;
