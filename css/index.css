@@ -484,6 +484,10 @@ h2 {
   padding: 7px 0 0 0;
 }
 
+.full-page-image {
+  max-width: 1200px;
+}
+
 .footer .contact {
   font-size: 1.5em;
 }
