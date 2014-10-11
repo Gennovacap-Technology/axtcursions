@@ -102,11 +102,11 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
 
 @media(max-width:767px){
   .review-bar {
-    height: 130px;
+    height: 140px;
   }
 
   .review-bar .navbar-nav > li > a {
-    padding: 14px 14px 0 0;
+    padding: 19px 14px 0 0;
   }
 }
 
