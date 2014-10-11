@@ -49,38 +49,77 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   margin-bottom: 0px;
 }
 
-.navbar-nav {
+.main-nav {
   float: right;
   margin-top: 5px;
 }
 
-.navbar-nav li {
+.main-nav li {
   text-align: center;
   margin: 0 20px;
 }
 
-.navbar-nav li a:link {
+.main-nav li a:link {
   line-height: .8em;
   vertical-align: middle;
   font-size: 1em;
   text-transform: uppercase;
 }
 
-.navbar-nav li .top-line {
+.main-nav li .top-line {
   font-size: .6em;
 }
 
+.review-bar {
+  background: #252525 url(/images/review-bar-gradient.png) repeat-x ;
+  height: 32px;
+  padding: 0;
+  color: #c0c0c0;
+}
+
+.review-bar .nav {
+  height: 32px;
+  min-height: none;
+}
+
+.review-bar a {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+.review-bar a:hover {
+  color: #ffffff;
+}
+
+.review-bar .navbar-nav > li > a {
+    padding: 7px 16px 0 0; /* 16 right padding because of icons */
+}
+.review-bar .navbar-nav > li > a {
+    line-height: 1em;
+    padding: none;
+}
+
+
+@media(max-width:767px){
+  .review-bar {
+    height: 130px;
+  }
+
+  .review-bar .navbar-nav > li > a {
+    padding: 14px 14px 0 0;
+  }
+}
 
 .nav {
   list-style: none;
 }
 
 
-.navbar-nav > li > a {
+.main-nav > li > a {
   padding: 60px 0px 47px 30px;
 }
 
-.navbar-nav > li {
+.main-nav > li {
   font-size: 2em;
 }
 
@@ -102,11 +141,11 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
 /*@media(max-width:767px)*/
 
 @media(max-width:992px){
-  .navbar-nav li a:link {
+  .main-nav li a:link {
     font-size: 80%;
   }
 
-  .navbar-nav li {
+  .main-nav li {
     margin: 0 10px;
   }
 }
@@ -121,7 +160,7 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
     text-align: center;
   }
 
-  .navbar-nav {
+  .main-nav {
     text-align: center;
     float: none;
     width: 100%;
@@ -145,18 +184,18 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   .navbar-brand img {
   }
 
-  .navbar-nav > li {
+  .main-nav > li {
   }
 
-  .navbar-nav > li > a {
+  .main-nav > li > a {
     padding: 0 0 20px 0;
   }
 
-  .navbar-nav li a:link {
+  .main-nav li a:link {
     font-size: 80%;
   }
 
-  .navbar-nav .hidden-nav {
+  .main-nav .hidden-nav {
     display: none;
   }
 
@@ -480,7 +519,33 @@ h2 {
     background-image: url(/images/icons/facebook/facebook-64.png);
 }
 
-.navbar-nav > li.facebook-nav a {
+.inline-icon-16 {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: 16px 16px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  text-indent: -9999em;
+}
+
+.si-tripadvisor-16 {
+  background-color: #589442;
+  background-image: url(/images/icons/tripadvisor/tripadvisor-32.png);
+}
+
+.si-yelp-16 {
+    background-color: #C93C27;
+    background-image: url(/images/icons/yelp/yelp-32.png);
+}
+
+.si-facebook-16 {
+    background-color: #3B5998;
+    background-image: url(/images/icons/facebook/facebook-32.png);
+}
+
+.main-nav > li.facebook-nav a {
   padding: 7px 0 0 0;
 }
 
