@@ -150,6 +150,17 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
   }
 }
 
+.navbar-collapse {
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-shadow: none;
+}
+
+.navbar-toggle {
+  color: white;
+}
+
 @media(max-width:767px){
 
   .container > .navbar-header, .container > .navbar-collapse {
