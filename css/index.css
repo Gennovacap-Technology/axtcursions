@@ -2,6 +2,10 @@ body {
   font-family: 'Exo 2', sans-serif;
 }
 
+.atxc-red {
+  color: #800404;
+}
+
 h1 {
   font-size: 3.5em;
 }
@@ -37,7 +41,7 @@ h1 {
   padding: 0;
 }
 
-h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
+h1, h2, h3, h4, .navbar, .btn, .jumbotron-caption, .price, .h1, .h2, .h3, .h4 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -306,6 +310,14 @@ h1, h2, h3, .navbar, .btn, .jumbotron-caption, .price {
 
 .invert .extra-shadow {
   font-weight: 400;
+}
+
+.text-invert {
+  color: #eee;
+}
+
+.text-invert h1 {
+
 }
 
 .jumbotron-caption .btn {
