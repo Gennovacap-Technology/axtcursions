@@ -10,14 +10,11 @@
 - q: Should I book in advance?
   a: <p>Absolutely! We do not show up to pick up locations unless there is a booking. Also, we might run out of space. And then you wouldn't be able to go with us. And you would be very sad =(</p>
 
-- q: Do you need my phone number?
-  a: <p>No, but if there is a trip cancellation we will only be able to notify you of the cancellation via email.</p>
-
 - q: Can you take wheelchairs?
   a: <p>At this time we are not wheelchair accessible.</p>
 
 - q: How can I book?
-  a: <p>Online or by phone.</p>
+  a: "<p>Online or by phone: <a href='tel:8667597375'>866-759-7375</a></p>"
 
 - q: What if the weather is bad?
   a: <p>We only cancel trips when the weather is prohibitively bad. We usually run trips when it rains.  In the event of weather that cancels one of our trips, we will give you a 100% refund.</p>
