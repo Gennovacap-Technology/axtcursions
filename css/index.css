@@ -117,7 +117,7 @@ h1, h2, h3, h4, .navbar, .btn, .jumbotron-caption, .price, .h1, .h2, .h3, .h4 {
   .review-bar .nav > li > a {
     position: relative;
     display: block;
-    padding: 10px 15px;
+    padding: 10px 8px;
   }
 }
 
