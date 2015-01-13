@@ -107,11 +107,17 @@ h1, h2, h3, h4, .navbar, .btn, .jumbotron-caption, .price, .h1, .h2, .h3, .h4 {
 
 @media(max-width:767px){
   .review-bar {
-    height: 170px;
+    height: auto;
+    padding-bottom: 3px;
+  }
+  .review-bar .nav > li {
+    float: left;
   }
 
-  .review-bar .navbar-nav > li > a {
-    padding: 19px 14px 0 0;
+  .review-bar .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
   }
 }
 
