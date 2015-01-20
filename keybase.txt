@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/halph
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://atxcursions.com
+  * I am halph (https://keybase.io/halph) on keybase.
+  * I have a public key with fingerprint 5D85 CE6F 1D97 5827 037E  66DC 9A57 772B A7F2 D604
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5d85ce6f1d975827037e66dc9a57772ba7f2d604",
+            "host": "keybase.io",
+            "key_id": "9a57772ba7f2d604",
+            "kid": "0101856fa4b639e7d6188d34157c63ce7309c1dffaa96a5d2452840130815eaeecf50a",
+            "uid": "b4a473d5b93d3e32311d07f862490700",
+            "username": "halph"
+        },
+        "service": {
+            "hostname": "atxcursions.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421738298,
+    "expire_in": 157680000,
+    "prev": "ae29a0a571a919b98e33eb395a1dc0e64bc2de603f2e9a2afde0b9ed6de6f989",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIfAnicbVJbSBVBGD4nS8suFCVqlsWKRHWymZ3dnZ3TzSCisAt0oYjoOLszq4t6
+9rS755RdsKeKyooe7AKHwMCKoE7RhYIuSkEpmphmPXSPKCgiooKiy6zUW/PyM9//
+fd9/4b89MiuUGy7et7i4gb3dEu5onZ8MrboRjm6VDIfVSyLW8IFg2fEq7iZcO+5L
+UUllumpyzYKMYFWXMUCYaxozCVUxxrJBsSUzDShSRKp2vEAhbAzq8TLbEZj4xGwm
+0P/wawYSAAKoq5pFFUNDhGOmQV1nSIEqNjVkcowAMSGzLEqJRlUmK6qsKwAioEOV
+U85NSwVU2CUH7AyFKhgx1SCIIY5kBCED2NI1WSEAAxAQPe7GaR0X7Gpam6iWtkck
+AaVskwfzB2P8TVN/s5l0PduJe2WmUye0CdfxHdOpDbS+n/CigdivTwTsTdyI/fWJ
+GXaciT0KRYoPGEhRKJimbwfGUJEhRrpM9IjENydsl8fsgKFiTQfiBXV4KmiAy4QC
+sTpICSQG0TlC3EBEpZCZgGuKYcqMawBZMidUphbjwCCcaQK0iE6kYLKNcUeKItEm
+rRKWnl0Vp37S5dL2tlvrB4fCuaHsIYOCSwjlDhv97z7W7Mr5NXlPV4W7beT14vYf
+ZcMLJ2z48OZyf/r7zdS418t2Hm7JK523sPLD5/aTi3+mm9PdZ5fkzPp4oehUQW/+
+iIrYg76OnrHn+yd0Xyl/sTp7zqj6tk+L0gsyNZOXhn99uT0lUp4p6L3YeSa5E5Q2
+aftPN2bqdtxTLtX0vGrNP+2dXdG4fExDpVvuXj02Pu/Jw98zh5JtfmH8UfOTr7jz
+Wde1xknHa+HdO89LclLrGnZ1FTwtr5jdd2TM/WPJfLz7RP29A1V5a95NmpuXrsty
+Sh43GfPXspy+pomzpu6YdnT1wUMtL9cOPpLZc27l1xkbS1fp069nZ5ZU3qku1E9+
+Iz+L3v84nIl4j4r2wj/XHSOu
+=1xRK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/halph
+
+==================================================================
