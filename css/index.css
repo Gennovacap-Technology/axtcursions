@@ -16,6 +16,15 @@ h1 {
   }
 }
 
+.big {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  border-left: none;
+  margin: 0 auto;
+  font-style: italic;
+}
+
 .notjumbotron {
   text-align: center;
 }
