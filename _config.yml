@@ -53,10 +53,13 @@ picture:
     # Self-set resolution sources.
     gallery:
       source_wide_hi:
-        media: "(min-width: 1200px) and (min-resolution: 1.5dppx)"
-        width: 900
+        media: "(min-width: 1200px)"
+        width: 1200
       source_lrg:
         media: "(min-width: 992px)"
-        width: 600
+        width: 900
+      source_med:
+        media: "(min-width: 768px)"
+        width: 700
       source_default:
         width: 300
