@@ -52,6 +52,8 @@ picture:
         width: 200
     # Self-set resolution sources.
     gallery:
+      attr:
+        class: "pull-right col-xs-12 rounded"
       source_wide_hi:
         media: "(min-width: 1200px)"
         width: 1200
@@ -62,4 +64,4 @@ picture:
         media: "(min-width: 768px)"
         width: 700
       source_default:
-        width: 300
+        width: 500
