@@ -74,4 +74,4 @@ picture:
         media: "(min-width: 40em)"
         width: 600
       source_default:
-        width: 250
+        width: 300
