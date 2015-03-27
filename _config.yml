@@ -14,10 +14,10 @@ picture:
         class: blog-full
         itemprop: image
       source_lrg:
-        media: "(min-width: 40em)"
+        media: "(min-width: 1200px)"
         width: 700
       source_med:
-        media: "(min-width: 30em)"
+        media: "(min-width: 992px)"
         width: 450
       source_default:
         width: 350
@@ -25,14 +25,11 @@ picture:
     # Half width pictures
     half:
       ppi: [1, 1.5]
-      attr:
-        data-location: "{{location}}"
-        data-active: nil
       source_lrg:
-        media: "(min-width: 40em)"
+        media: "(min-width: 1200px)"
         width: 400
       source_med:
-        media: "(min-width: 30em)"
+        media: "(min-width: 992px)"
         width: 250
       source_default:
         width: 350
@@ -41,37 +38,25 @@ picture:
       ppi: [1, 1.5]
       attr:
         class: pull-right col-xs-12
-        data-location: "{{location}}"
-        data-active: nil
       source_lrg:
-        media: "(min-width: 40em)"
+        media: "(min-width: 1200px)"
         width: 400
       source_med:
-        media: "(min-width: 30em)"
+        media: "(min-width: 992px)"
         width: 250
       source_default:
         width: 350
     # Logo
     logo:
-      ppi: [1, 1.5]
-      attr:
-        data-location: "{{location}}"
-        data-active: nil
-      source_lrg:
-        media: "(min-width: 40em)"
-        width: 200
-      source_med:
-        media: "(min-width: 30em)"
-        width: 200
       source_default:
         width: 200
     # Self-set resolution sources.
     gallery:
       source_wide_hi:
-        media: "(min-width: 40em) and (min-resolution: 1.5dppx)"
+        media: "(min-width: 1200px) and (min-resolution: 1.5dppx)"
         width: 900
-      source_wide:
-        media: "(min-width: 40em)"
+      source_lrg:
+        media: "(min-width: 992px)"
         width: 600
       source_default:
         width: 300
