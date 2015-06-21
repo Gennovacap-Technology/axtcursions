@@ -133,7 +133,7 @@
                   </ul>
                 </div>
                 <div class="col-sm-3">
-                  <div id=""><span  class="rotate">Can't stop won't stop since 2014, Say When., Gluten free since 2014</span></div>
+                  <div id=""><span  class="rotate">Can't stop won't stop since 2014|| Say When.|| Gluten free since 2014</span></div>
                 </div>
               </div>
               </nav>
@@ -177,8 +177,13 @@
     $(document).ready(function() {
        $(".rotate").textrotator({
         animation: "flipUp",
-        separator: ",",
+        separator: "||",
         speed: 10000
+       });
+       $(".rotate-dissolve").textrotator({
+        animation: "dissolve",
+        separator: "||",
+        speed: 3000
        });
 
        $("img").unveil(500);
