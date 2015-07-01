@@ -1,0 +1,14 @@
+---
+layout: default
+title: Austin Travel Blog
+---
+<div class="container">
+  <h1>Austin Travel Blog</h1>
+  <ul class="blog-posts">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_string }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
