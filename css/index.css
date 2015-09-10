@@ -70,6 +70,10 @@ h1 {
   margin: 50px auto 0;
 }
 
+.col-xs-12 .service-box h3 {
+  text-align: center;
+}
+
 h1, h2, h3, h4, .navbar, .btn, .jumbotron-caption, .price, .h1, .h2, .h3, .h4 {
   font-family: 'Oswald', sans-serif;
 }
@@ -671,4 +675,8 @@ h2 {
 
 .panel-pricing .price-highlight {
   margin-bottom: 30px;
+}
+
+.terms {
+  font-size: 75%;
 }
