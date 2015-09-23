@@ -21,6 +21,24 @@ h1 {
   }
 }
 
+ul.no-padding, ol.no-padding {
+  padding-left: 0;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+
 .big {
   font-weight: bold;
   font-size: 2em;
@@ -675,6 +693,10 @@ h2 {
 
 .panel-pricing .price-highlight {
   margin-bottom: 30px;
+}
+
+.panel-pricing .panel-footer {
+  background: transparent;
 }
 
 .terms {
