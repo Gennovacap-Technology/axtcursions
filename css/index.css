@@ -268,10 +268,6 @@ h1, h2, h3, h4, .navbar, .btn, .jumbotron-caption, .price, .h1, .h2, .h3, .h4 {
     font-size: 80%;
   }
 
-  .main-nav .hidden-nav {
-    display: none;
-  }
-
 }
 
 
@@ -651,22 +647,9 @@ h2 {
   font-size: 1.5em;
 }
 
-@media(min-width:767px){
-  #navbar {
-    width:auto;
-    float:right;
-  }
-}
-
-.blog-posts {
-  list-style-type: none;
-  font-size: 150%;
-  margin: 0;
-  padding: 0;
-}
 
 .panel-pricing {
-  padding: 40px;
+  padding: 15px;
 }
 
 .panel-pricing.panel-one {
@@ -701,4 +684,30 @@ h2 {
 
 .terms {
   font-size: 75%;
+}
+
+li.no-mobile-nav {
+  display: none;
+}
+
+@media(min-width:767px){
+  #navbar {
+    width:auto;
+    float:right;
+  }
+
+  .panel-pricing {
+    padding: 40px;
+  }
+
+  li.no-mobile-nav {
+    display: initial;
+  }
+}
+
+.blog-posts {
+  list-style-type: none;
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
 }
