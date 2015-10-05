@@ -1,6 +1,7 @@
 name: ATXcursions
 markdown: redcarpet
 pygments: true
+exclude: ['node_modules'] 
 
 picture:
   source: images
