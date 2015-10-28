@@ -39,6 +39,10 @@ ul.no-padding, ol.no-padding {
     vertical-align: top;
 }
 
+.row-less-margin {
+  margin-bottom: 10px !important;
+}
+
 .big {
   font-weight: bold;
   font-size: 2em;
